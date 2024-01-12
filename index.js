@@ -14,37 +14,37 @@ inquirer.prompt([
   },
   {
     type: 'input',
-    name: 'location',
+    name: 'email',
     message: 'What is your email address?',
   },
   {
     type: 'input',
-    name: 'hobby',
+    name: 'title',
     message: 'What is your project name?',
   },
   {
     type: 'input',
-    name: 'food',
+    name: 'description',
     message: 'Please write a short description of your project',
   },
   {
     type: 'input',
-    name: 'github',
+    name: 'license',
     message: 'What kind of license should your project have?',
   },
   {
     type: 'input',
-    name: 'linkedin',
+    name: 'contribute',
     message: 'What command should be run to install dependencies?',
   },
   {
     type: 'input',
-    name: 'name',
+    name: 'test',
     message: 'What command should be run to run tests?',
   },
   {
     type: 'input',
-    name: 'location',
+    name: 'usage',
     message: 'What does the user need to know about using the repo?',
   },
  
