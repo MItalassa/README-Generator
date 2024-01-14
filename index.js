@@ -29,7 +29,7 @@ inquirer.prompt([
     message: 'Please write a short description of your project',
   },
   {
-    type: 'input',
+    type: 'list',
     name: 'license',
     choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
     message: 'What kind of license should your project have?',
