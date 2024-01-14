@@ -54,23 +54,27 @@ inquirer.prompt([
 
 
 // function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, err => {
-        if (err) {
-          return console.log(err);
-        }
+// function writeToFile(fileName, data) {
+//     fs.writeFile(fileName, data, err => {
+//         if (err) {
+//           return console.log(err);
+//         }
       
-        console.log("Success! Your README.md file has been generated")
-    });
-}
+//         console.log("Success! Your README.md file has been generated")
+//     });
+// }
 
 // function to initialize program
-function init() {
+async function init() {
 
-    questions()
-        .then((answers) => writeFileAsync('ExampleREADME.md', generateMarkdown(answers)))
-        .then(()=> console.log('You successfully wrote your README.md file!'))
-        .catch((err)=> console.error(err));
+    try {
+        const answers = await questions()
+        writeFileAsync('ExampleREADME.md', generateMarkdown(answers))
+        console.log('You successfully wrote your README.md file!')
+    } catch (err) {
+        console.error(err);
+    }
+
 }
 
 

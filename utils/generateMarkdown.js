@@ -5,6 +5,14 @@ function generateMarkdown(data) {
 
   ${data.description}
 
+  ## List of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [License](#license)
+  
+
   ## Installation
 
   ${data.installation}
@@ -24,6 +32,12 @@ function generateMarkdown(data) {
   ## Tests
 
   ${data.test}
+
+  ## Questions
+
+  If you have any questions, please contact me:
+  GitHub: [@${data.name}]
+  E-mail: [${data.email}]
 
 
 
