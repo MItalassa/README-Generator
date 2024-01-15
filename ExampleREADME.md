@@ -1,9 +1,12 @@
-# Readme Generator
+# README.md Generator
+
+  ![badge](https://img.shields.io/badge/license-Mozilla Public License 2.0-brightgreen)<br />
+
   ## Description
 
-  {gifs/wave} This is a test to check the functionality of this node app to automatically generate a Markdown README.md file following user's answers.
+  📖 This is a test to check the functionality of this node app to automatically generate a Markdown README.md file following user's answers.
 
-  ## List of Contents
+  ## 📂 List of Contents
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributing](#contributing)
@@ -18,25 +21,27 @@
 
   ## Usage
 
-  Please fork the repo before starting to make changes to the repo
+  💽 this is a test
 
   ## How to Contribute
 
-  npm
+  🤝 npm i
 
   ## Tests
 
-  npm
+  🛠️ npm
 
   ## License
 
-  :memo: GNU AGPLv3
+  📝 ![badge](https://img.shields.io/badge/license-Mozilla Public License 2.0-brightgreen)
+  <br />
+  This application is covered by the Mozilla Public License 2.0 license.
 
   ## Questions
 
-  If you have any questions, please contact me:
+  ✉️ If you have any questions, please contact me:
   GitHub: [@MItalassa] (https://github.com/MItalassa)<br />
-  ✉️ E-mail: marina.iacomino@gmail.com
+  E-mail: marina.iacomino@gmail.com
 
 
 

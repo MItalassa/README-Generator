@@ -31,7 +31,7 @@ inquirer.prompt([
   {
     type: 'input',
     name: 'installationn',
-    message: 'Please write the installation project:',
+    message: 'Please write the installation for this project:',
   },
   {
     type: 'list',
