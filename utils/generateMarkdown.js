@@ -3,41 +3,42 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ## Description
 
-  ${data.description}
+  📖 ${data.description}
 
-  ## List of Contents
+  ## 📂 List of Contents
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [License](#license)
+  * [Questions](#questions)
   
 
   ## Installation
 
-  ${data.installation}
+  💾 ${data.installation}
 
   ## Usage
 
-  ${data.usage}
-
-  ## License
-
-  ${data.license}
+  💽 ${data.usage}
 
   ## How to Contribute
 
-  ${data.contribute}
+  🤝 ${data.contribute}
 
   ## Tests
 
-  ${data.test}
+  🛠️ ${data.test}
+
+  ## License
+
+  📝 ${data.license}
 
   ## Questions
 
-  If you have any questions, please contact me:
-  GitHub: [@${data.name}]
-  E-mail: [${data.email}]
+  ✉️ If you have any questions, please contact me:
+  GitHub: [@${data.name}] (https://github.com/${data.name})<br />
+  E-mail: ${data.email}
 
 
 
