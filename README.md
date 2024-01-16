@@ -27,6 +27,8 @@ Once all the questions have been completed a new file with the info given will b
 
 ## ScreenShots
 
+link to the walkthrough video: https://drive.google.com/file/d/11XXjj3-lgn5weHJ-vCJPeHQLwoZYRyqK/view?usp=sharing
+
 <img src="./images/Screenshot (10).png">
 
 ## Questions
