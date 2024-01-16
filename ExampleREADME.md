@@ -1,11 +1,11 @@
-# README.md example
+# Example
 
   !License](https://img.shields.io/badge/License-Apache-blue)
 
 
   ## Description
 
-  📖 This is a short test to show functionality of this project.
+  📖 non
 
   ## 📂 List of Contents
   * [Installation](#installation)
@@ -22,15 +22,15 @@
 
   ## Usage
 
-  💽 This is a test.
+  💽 
 
   ## How to Contribute
 
-  🤝 npm i
+  🤝 
 
   ## Tests
 
-  🛠️ npm test
+  🛠️ 
 
   ## License
 
@@ -41,7 +41,7 @@
   ## Questions
 
   ✉️ If you have any questions, please contact me:
-  GitHub: [@MItalassa] (https://github.com/MItalassa)<br />
-  E-mail: marina.iacomino@gmail.com
+  GitHub: [@MITalassa] (https://github.com/MITalassa)<br />
+  E-mail: abc.987@gmail.bo
 
 
