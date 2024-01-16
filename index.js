@@ -36,7 +36,7 @@ inquirer.prompt([
   {
     type: 'list',
     name: 'license',
-    choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
+    choices: ['Apache', 'Boost','BSD',  'MIT', 'GPL', 'None'],
     message: 'What kind of license should your project have?',
   },
   {
@@ -57,17 +57,6 @@ inquirer.prompt([
  
 ]);
 
-
-// function to write README file
-// function writeToFile(fileName, data) {
-//     fs.writeFile(fileName, data, err => {
-//         if (err) {
-//           return console.log(err);
-//         }
-      
-//         console.log("Success! Your README.md file has been generated")
-//     });
-// }
 
 // function to initialize program
 async function init() {

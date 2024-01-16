@@ -1,8 +1,17 @@
-// function to generate markdown for README
+//render license badge
+function renderLicenseBadge(license) {
+  if (license !== 'None') {
+      return `!License](https://img.shields.io/badge/License-${license}-blue)`;
+  }
+  else {
+      return '';
+  }
+}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)<br />
+  ${renderLicenseBadge(data.license)}
+
 
   ## Description
 
@@ -44,9 +53,6 @@ function generateMarkdown(data) {
   ✉️ If you have any questions, please contact me:
   GitHub: [@${data.name}] (https://github.com/${data.name})<br />
   E-mail: ${data.email}
-
-
-
 
 
 `;
